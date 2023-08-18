@@ -2,7 +2,7 @@
 
 Welcome to the 2048 game! This is a browser-based implementation of the popular puzzle game where you combine tiles to reach the elusive 2048 tile.
 
-![2048 Game Screenshot](screenshot.png)
+![2048 Game Screenshot](Screenshot.png)
 
 ## How to Play
 
