@@ -6,14 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2048</title>
     <link rel="stylesheet" href="2048.css">
-    <script src="2048.js"></script>
+
 </head>
 
 <body>
-    <h1>2048</h1>
-    <hr>
-    <h2>Score: <span id="score">0</span></h2>
-    <div id="board"></div>
+    <section>
+        <h1>2048</h1>
+        <hr>
+        <h2>Score: <span id="score">0</span> || Highest:<span id="highest">0</span></h2>
+        <div id="board"></div>
+    </section>
+    <section>
+        <h2 id="rules">Rules:</h2>
+        <p>In this game your soal aim is to reduce the number of boxes inside the board by merging the boxes containing
+            same
+            number. In each turn a new box is generated having value '2' of '4'. Hence, the numbers generated on the
+            boxes
+            will be of power two. As you merge the boxes, the score will update according to the value of the boxes.
+            <br><br>
+            To restart the game, click on the button below:
+            <br>
+            <button id="Reset">Reset</button>
+        </p>
+    </section>
+    <script src="2048.js"></script>
 </body>
 
 </html>
