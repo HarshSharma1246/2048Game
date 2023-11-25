@@ -1,8 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background: url("https://th.bing.com/th/id/OIP.PcuxJTzzi0oB_F4EYGraOAHaE9?pid=ImgDet&rs=1");
+    background-color: rgb(255, 213, 213);
     background-size: cover;
+    display: flex;
 }
 
 hr {
@@ -10,7 +11,26 @@ hr {
 }
 
 h2 {
-    color: white;
+    color: black;
+}
+
+section:nth-of-type(1) {
+    margin-left: 200px;
+}
+
+#rules {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+p {
+    text-align: justify;
+    width: 300px;
+    margin-left: 200px;
+    padding: 10px;
+    background-color: rgb(255, 237, 237);
+    border: solid 2px black;
+    border-radius: 5%;
 }
 
 h1 {
@@ -43,6 +63,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#Reset {
+    width: 20%;
+    height: 5%;
 }
 
 .x2 {
